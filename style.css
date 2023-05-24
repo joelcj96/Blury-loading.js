@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background : url('https://media.istockphoto.com/id/503416862/photo/man-ready-to-exercise-with-kettle-bell.jpg?s=612x612&w=0&k=20&c=LOP7VZUq1-A7Ct4kMkxXp8UV5hUahetCliwef9tiQoI= ')
+    no-repeat center center/cover;
+    width:  calc(100vw + 50px);
+    height: calc(100vh + 70px);
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    z-index: -1;
+    filter: blur(0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.loading-text {
+    font-size: 100px;
+    color: white;
+
+}
+
+
+
+
+.reload {
+    text-align: center;
+}
+
+button {
+    padding: 8px 17px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 170px;
+}
+
